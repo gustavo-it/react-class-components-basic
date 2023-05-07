@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
+import Main from './components/Main';
 
-// componente sem estado ==> função normal que retorna jsx
 
 export default function App() {
-  return <h1>Hello world!</h1>;
+  return <Main />;
 }
-
-// export default App;
